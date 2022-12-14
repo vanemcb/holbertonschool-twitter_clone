@@ -11,10 +11,10 @@ Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-      apiKey: "AIzaSyA3jQbp7x3qE1xRSxMqfTDbIcUk59s2umY", // Your apiKey
-      appId: "1:1069444769290:android:a3db086319ce6ce92fe1f3", // Your appId
-      messagingSenderId: "1069444769290", // Your messagingSenderId
-      projectId: "clone-twitter-d9475", // Your projectId
+      apiKey: "AIzaSyA3jQbp7x3qE1xRSxMqfTDbIcUk59s2umY",
+      appId: "1:1069444769290:android:a3db086319ce6ce92fe1f3",
+      messagingSenderId: "1069444769290",
+      projectId: "clone-twitter-d9475",
     ),
   );
   runApp(MultiProvider(
